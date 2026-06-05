@@ -27,6 +27,7 @@ then change directories into "Palindrome_detector"
 
 Once this is done, run the following command:
 	./palin1.exe word\_list.csv palindrome_list.csv
+	
 From here, you should see "palindrome_list.csv" appear in your file.
 
 In the "Palindrome_detector" file there is also a test words file you can run (be sure to change the selected file in the command accordingly)
