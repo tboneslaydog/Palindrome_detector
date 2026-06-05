@@ -1,3 +1,5 @@
+!!!NOTE: This is a README automatically downloaded when generating the angular files. For the full instructions on how to use this program check README.md
+
 # AngularApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.13.

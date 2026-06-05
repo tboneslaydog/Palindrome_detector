@@ -3,6 +3,46 @@
 
   <h2>Input For Palindrome</h2>
 
+  <p> Enter a word, one per line</p>
 
-  
+
+<textarea
+  rows = '10'
+  cols = '40'
+  [(ngModel)] = "wordText"
+
+  placeholder = "bob&#10;levelheaded&#10; redivider&#10;">
+</textarea>
+
+
+<h3>Input</h3>
+
+  <pre> {{ wordText }} </pre>
+  <h3>Words List</h3>
+
+  <ul>
+    <!-- Each word gets converted into a bullet point-->
+  <li *ngFor = "let word of getWords()">
+    {{ word }}
+  </li>
+  </ul>
+
+  <h2>Upload Palindrome List</h2>
+
+  <p> Upload CSV File (from c++) </p>
+ <!--When the user uploads a file, the file is sent to the uploadPalindromes function-->
+  <input
+  type = "file"
+  accept = ".csv"
+  (change) = "uploadPalindromes($event)">
+
+  <ul>
+    <li *ngFor = "let palindrome of palindromes">
+      {{ palindrome }}
+    </li>
+  </ul>
 </main>
+
+<button (click) = "downloadWords()">
+ Download Word List
+</button>

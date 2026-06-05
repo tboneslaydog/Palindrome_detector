@@ -1,4 +1,7 @@
+
+
 #Palindrome detector
+
 
 This assignment uses angular webapp to download and diaply a list of palindromes. The c++ component
 parses through downloaded words to sort out words that are palindromes or have aplindromes in them.
@@ -6,7 +9,9 @@ Once it completes this operation it then outputs a .csv of all palindromes. afte
 to angular, angular will display the output list
 
 
+
 #Instructions
+
 
 1. Requirements
 install npm
@@ -22,6 +27,7 @@ The input words should update in real time in the "input" and "Word list" sectio
 From there, you can donwload the word list at the bottom of the page by hitting the "Download Word List" button
 
 4. C++ Detection
+
 once you have downloaded the "word_list.csv" file go into your command prompt
 then change directories into "Palindrome_detector"
 
@@ -31,6 +37,18 @@ Once this is done, run the following command:
 From here, you should see "palindrome_list.csv" appear in your file.
 
 In the "Palindrome_detector" file there is also a test words file you can run (be sure to change the selected file in the command accordingly)
+
+once you have downloaded the "word\_list.csv" file go into your command prompt
+then change directories into "Palindrome\_detector"
+
+  Once this is done, run the following command:
+	./palin1.exe word\_list.csv palindrome\_list.csv
+
+
+  From here, you should see "palindrome\_list.csv" appear in your file.
+
+  In the "Palindrome\_detector" file there is also a test words file you can run (be sure to change the selected file in the command accordingly)
+
 
 
 
